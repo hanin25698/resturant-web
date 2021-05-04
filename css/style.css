@@ -129,7 +129,7 @@ color:rgb(0, 49, 0)
 /* media*/
 
 .about-section{
-    background: url(./img/about\ copy.jpg) no-repeat left;
+    background: url(../images/about\ copy.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -187,7 +187,7 @@ color:rgb(0, 49, 0)
     }
     }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1200px){ 
   .main div {
       padding: 80px;
   }
