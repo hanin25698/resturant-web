@@ -128,7 +128,64 @@ color:rgb(0, 49, 0)
 
 /* media*/
 
-
+.about-section{
+    background: url(./img/about\ copy.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+  
+  }
+  
+  .inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+    box-sizing: border-box;
+  
+  }
+  
+  .inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .inner-container h1::before{
+    position: absolute;
+    content: "";
+    width: 160px;
+    height: 3px;
+    background-color: #ff7720;
+    bottom: 66.5%;
+    transform:-4%;
+    margin-bottom: -9px;
+    
+  } 
+  @media screen and (max-width:1200px){
+    .inner-container{
+    padding: 80px;
+    }
+    }
+    
+    @media screen and (max-width:1000px){
+    .about-section{
+    background-size: 100%;
+    padding: 100px 40px;
+    }
+    .inner-container{
+    width: 100%;
+    }
+    }
+    
+    @media screen and (max-width:600px){
+    .about-section{
+    padding: 0;
+    }
+    .inner-container{
+    padding: 60px;
+    }
+    }
 
 @media screen and (max-width:1200px){
   .main div {
