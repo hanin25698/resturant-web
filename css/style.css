@@ -1,0 +1,234 @@
+
+.order {
+    margin-left: 5%;
+     width: 90%;
+     height: 40%;
+     background-color: #fff;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+     text-decoration: none;
+     outline: none;
+     border: none;
+     text-transform: capitalize;
+     transition: all 2s linear;
+     
+     /* display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     position: relative;
+     z-index: 0; */
+ }
+ 
+  .heading {
+      text-align: center;
+      font-size: 2rem;
+ 
+   
+     line-height: normal;
+     color: #333;
+     font-family: 'Oswald', sans-serif;
+     padding: 0 .5rem;
+ }
+ .order .order1 {
+     display: flex;
+     flex-direction: row;
+     margin: 2rem 0;
+     box-shadow: 0 .5rem 1rem rgb(14, 13, 13);
+     overflow: hidden;
+     color: #333;
+     background-color: #f2f3ee;
+    
+     border-radius: 1rem;
+     
+ }
+ .order .order1 form {
+     display: flex;
+     flex-direction: column;
+     flex: 1 1 40%;
+     padding:3rem;
+     margin: 20px;
+     background: #fff;
+    font-size: 1.5rem;
+    border-radius: 20px;
+ }
+ 
+ .order .order1 form .box{
+     padding: 1rem;
+     margin: 1rem 0;
+     font-size: 1rem;
+     color: #333;
+     text-transform: none;
+     background: #f0f0f0;
+     width: 90%;
+     border: none;
+     border-radius: 8rem;
+     outline: none;
+ 
+ }
+ .order .order1 form .box ::placeholder{
+     text-transform: capitalize;
+     
+ }
+  .btn {
+     font-size: 1.7rem;
+     padding: .7rem .2rem;
+     border-radius: 8rem;
+     margin-top: 2rem;
+     width: 40%;
+     color: #333;
+     cursor: pointer;
+    background: #F7CA3E;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    margin-left: 80%;
+    
+ }
+ .btn2{
+     text-decoration: none;
+     color: #333;
+     font-family: 'Roboto', sans-serif;
+ }
+ .btn:hover{
+     color: #333;
+     background: #928f8e;
+ }
+ .order .order1 .map {
+    
+     flex: 1 1 40%;
+     /* margin: 1rem 1rem; */
+     margin-top: 3rem;
+     margin-right: -2rem;
+ 
+ }
+ .order .order1 .map img {
+     height: 70%;
+     width: 85%; 
+     
+ }
+ 
+ 
+ /* sevices section */
+ 
+ .services .serv-all {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     transition: all 2s linear;
+     margin-bottom: 7rem;
+ }
+ 
+ .services .serv-all .box1{
+     text-align: center;
+     width: 30rem;
+     margin: 2rem;
+ }
+ .services .serv-all .box1 i{
+     font-size: 5rem;
+     color: #F7CA3E;
+     padding: 1rem;
+ }
+ .services .serv-all .box1 i:hover{
+     color: #333;
+ }
+ .services .serv-all .box1 h3{
+     font-size: 1.5rem;
+     color: #333;
+     font-family: 'Roboto', sans-serif;
+ }
+ .head{
+     text-align: center;
+      font-size: 2rem;
+     line-height: normal;
+     color: #333;
+     font-family: 'Oswald', sans-serif;
+     padding: 0 .5rem;
+ }
+ .services .serv-all .box1 p{
+     font-size: 1.5rem;
+     color: #333;
+     padding: 1rem 0;
+ }
+ 
+ /* footer starts */
+ 
+ footer{
+     /* display: flex;
+     flex-direction: column; */
+     background: #282727;
+     padding: 1rem 8%;
+     font-family: 'Roboto', sans-serif;
+     margin-top: 7rem;
+ 
+ }
+ footer .container{
+     display: flex;
+     flex-wrap: wrap;
+     
+     
+     }
+     /* font-family: 'Roboto', sans-serif;
+     text-decoration: none;
+ } */
+    
+ footer .container .part{
+     flex: 1 1 15rem;
+     margin: 1rem;
+     text-decoration: none;
+     
+     
+ }
+     
+ 
+ footer .container .part h3{
+     font-size: 2.5rem;
+     color: #fff;
+     padding: .5rem 0;
+     font-weight: normal;
+ }
+ footer .container .part p{
+     font-size: 1.7rem;
+     color:#eee;
+     padding:.5rem 0;
+ }
+ 
+ footer .container .part a{
+     font-size: 1.7rem;
+     color:#eee;
+     padding:1rem 0;
+     display: block;
+     text-decoration: none;
+ }
+ footer .container .part a:hover{
+     color: #F7CA3E;
+ }
+ 
+ footer .container .part p i{
+     padding-right: .5rem;
+     color: #F7CA3E;
+ }
+ footer .container .part .fab{
+     color: #F7CA3E;
+     font-size: 2.5rem;
+     padding: .5rem;
+ }
+ footer .copyright{
+ font-size: 1rem;
+ text-align: center;
+ font-weight: lighter;
+ letter-spacing: .1rem;
+ color: rgb(192, 187, 187);
+ border-top: .1rem solid rgba(255,255,255,.7);
+ padding: 1rem 1rem;
+ 
+ }
+ 
+ footer .copyright .add{
+     color: #F7CA3E;
+ }
+ /* @media only screen and (min-width:50px){
+     .footer{
+         background: #8d2c2c;
+     }} */
