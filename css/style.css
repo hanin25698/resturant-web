@@ -1,17 +1,22 @@
 
 
 .order {
-    margin-left: 5%;
-     width: 90%;
+    
+     width: 100%;
      height: 40%;
-     background-color: #fff;
+     background-image: url(../images/blob\ \(1\).svg);
+     background-position-x: 65%;
+     background-position-y: top;
+     
+     background-color: white;
      box-sizing: border-box;
-     font-family: 'Roboto', sans-serif;
+     font-family: 'Ubuntu', sans-serif;
      text-decoration: none;
      outline: none;
      border: none;
-     text-transform: capitalize;
-     transition: all 2s linear;
+     margin-right: 0%;
+     text-transform: capitalize;}
+    
      
      /* display: flex;
      align-items: center;
@@ -19,28 +24,27 @@
      flex-wrap: wrap;
      position: relative;
      z-index: 0; */
- }
+
  
-  .heading {
-      text-align: center;
-      font-size: 2rem;
- 
-   
-     line-height: normal;
-     color: #333;
-     font-family: 'Oswald', sans-serif;
-     padding: 0 .5rem;
+  .heading {margin-left: 750px;
+    font-size: 3rem;
+    font-family: 'Questrial', sans-serif;
+    color:rgb(0, 49, 0);
+    margin-top: 150px;
+    margin-bottom: 50px;
  }
- .order .order1 {
+ .order .order1 {width: 60%;
      display: flex;
      flex-direction: row;
      margin: 2rem 0;
-     box-shadow: 0 .5rem 1rem rgb(14, 13, 13);
+     box-shadow: 0 .2rem 1rem rgb(228, 228, 228);
      overflow: hidden;
      color: #333;
-     background-color: #f2f3ee;
+     background-color: #ffffff;
+     margin-left: 350px;
+     
     
-     border-radius: 1rem;
+     
      
  }
  .order .order1 form {
@@ -58,7 +62,7 @@
      padding: 1rem;
      margin: 1rem 0;
      font-size: 1rem;
-     color: #333;
+     color: rgb(71, 71, 71);
      text-transform: none;
      background: #f0f0f0;
      width: 90%;
@@ -71,24 +75,26 @@
      text-transform: capitalize;
      
  }
-  .btn {
-     font-size: 1.7rem;
+  .btn33 {
+     font-size: 1.2rem;
      padding: .7rem .2rem;
      border-radius: 8rem;
      margin-top: 2rem;
      width: 40%;
      color: #333;
      cursor: pointer;
-    background: #F7CA3E;
+    background: #ff7720;
     outline: none;
     border: none;
-    font-weight: bold;
+    font-weight: 500;
     margin-left: 80%;
     
  }
+
+ form label{color: rgb(0, 128, 96);}
  .btn2{
      text-decoration: none;
-     color: #333;
+     color: rgb(255, 255, 255);
      font-family: 'Roboto', sans-serif;
  }
  .btn:hover{
@@ -111,13 +117,17 @@
  
  
  /* sevices section */
+
+ .services{background-color: white;
+width: 100%;
+padding-top: 50px;}
  
  .services .serv-all {
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
      align-items: center;
-     transition: all 2s linear;
+    
      margin-bottom: 7rem;
  }
  
@@ -128,7 +138,7 @@
  }
  .services .serv-all .box1 i{
      font-size: 5rem;
-     color: #F7CA3E;
+     color: #ff7720;
      padding: 1rem;
  }
  .services .serv-all .box1 i:hover{
@@ -136,20 +146,20 @@
  }
  .services .serv-all .box1 h3{
      font-size: 1.5rem;
-     color: #333;
-     font-family: 'Roboto', sans-serif;
+     color: rgb(95, 95, 95);
+     font-family: 'Ubuntu', sans-serif;
  }
  .head{
      text-align: center;
-      font-size: 2rem;
+      font-size: 3rem;
      line-height: normal;
-     color: #333;
-     font-family: 'Oswald', sans-serif;
+     color: rgb(0, 44, 0);
+     font-family: 'Ubuntu', sans-serif;
      padding: 0 .5rem;
  }
  .services .serv-all .box1 p{
-     font-size: 1.5rem;
-     color: #333;
+     font-size: 1.4rem;
+     color: rgb(110, 110, 110);
      padding: 1rem 0;
  }
  
@@ -162,11 +172,15 @@
      padding: 1rem 8%;
      font-family: 'Roboto', sans-serif;
      margin-top: 7rem;
+    
  
  }
  footer .container{
      display: flex;
+     /* margin-right: 0%;
+     padding-right: 0%; */
      flex-wrap: wrap;
+     
      
      
      }
@@ -184,36 +198,39 @@
      
  
  footer .container .part h3{
-     font-size: 2.5rem;
+     font-size: 2rem;
      color: #fff;
+     font-family: 'Ubuntu', sans-serif;
      padding: .5rem 0;
      font-weight: normal;
  }
  footer .container .part p{
-     font-size: 1.7rem;
+     font-size: 1.3rem;
      color:#eee;
      padding:.5rem 0;
  }
  
  footer .container .part a{
-     font-size: 1.7rem;
+     font-size: 1.3rem;
      color:#eee;
      padding:1rem 0;
      display: block;
      text-decoration: none;
  }
  footer .container .part a:hover{
-     color: #F7CA3E;
+     color: #ff7720;
  }
  
  footer .container .part p i{
-     padding-right: .5rem;
-     color: #F7CA3E;
+     padding-right: 1.5rem;
+     color: #ff7720;
  }
  footer .container .part .fab{
-     color: #F7CA3E;
-     font-size: 2.5rem;
-     padding: .5rem;
+     color: #ff7720;
+     font-size: 2.3rem;
+     display: inline;
+     padding: .2rem;
+     margin-left: 50px;
  }
  footer .copyright{
  font-size: 1rem;
@@ -227,7 +244,7 @@
  }
  
  footer .copyright .add{
-     color: #F7CA3E;
+     color: #ff7720;
  }
  /* @media only screen and (min-width:50px){
      .footer{
@@ -236,23 +253,27 @@
 
 body{margin: 0%;
 padding: 0%;
-background-color:#f2f3ee;
-background-image: url("../images/home-bg.jpg");
-background-repeat: no-repeat;}
+background-color:white;
+
+font-family: 'Ubuntu', sans-serif;}
 
 .topnav{display: flex;
 flex-direction: row;
 justify-content: space-between;
-margin-top: 5px;
+margin-top: 0px;
+margin-bottom: 0%;
+padding-bottom: 0%;
+
 height:20px;}
 
-.logo-sec img{width: 180px;
+.logo-sec img{width: 150px;
 margin-left: 150px;
 
 margin-top: 0%;}
 
 .nav-bar{margin-right: 200px;
     margin-top: 50px;
+   
 }
 .nav-bar a{text-decoration: none;
 margin: 30px;
@@ -270,10 +291,15 @@ border-radius: 20px;}
 
 .nav-bar button:hover{background-color: rgb(248, 142, 104);}
 
-.sitebanner{
-    height: 700px;
+.sitebanner{padding-bottom: 50px;
     margin: 0%;
     position: relative;
+    background-image: url("../images/home-bg.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+padding-bottom: 100px;
+
+    
     
 }
 
@@ -300,13 +326,14 @@ color: rgb(0, 44, 0);}
 
 .sitebanner p{width: 50%;
 margin-left: 150px;
-font-size: 18px;
-line-height: 1.7;
+font-size: 1.4rem;
+line-height: 1.8;
 background-color:#f2f3ee;
 border-radius: 10px;
 padding: 10px;
 font-family: 'Questrial', sans-serif;
 margin-top: 20px;
+
 color: rgb(85, 85, 85);}
 
 .info{position: relative;
@@ -333,13 +360,20 @@ margin-top: 30px;
 .downbtn a{text-decoration: none;
     color: white;}
 
+
+
+.allrev{background-color: #f2f3ee;
+padding-top: 10px;}
+
+
 .reviws{width: 100%;
 display: flex;
 flex-direction: row;
 
+
 }
 
-.box{width: 18%;
+.boxs{width: 18%;
 background-color: white;
 margin: 50px;
 padding: 20px;
@@ -353,10 +387,13 @@ color: rgb(114, 114, 114);
 .imgcont img{width: 25%;
 border-radius: 50%;}
 
-.topic2{margin-top: 100px;
-font-size: 50px;
+.blah h2{color: rgb(0, 128, 85);}
+
+.blah p{font-size: 1.1rem;}
+
+.topic2{
+font-size: 3rem;
 font-family: 'Questrial', sans-serif;
-margin-left: 600px;
 color:rgb(0, 49, 0)
 }
 
@@ -366,8 +403,9 @@ color:rgb(0, 49, 0)
 
 .about-section{
     background: url(../images/about\ copy.jpg) no-repeat left;
-    background-size: 55%;
+    background-size: 50%;
     background-color: #fdfdfd;
+   
     overflow: hidden;
     padding: 100px 0;
   
@@ -375,29 +413,23 @@ color:rgb(0, 49, 0)
   
   .inner-container{
     width: 55%;
+    
     float: right;
     background-color: #fdfdfd;
     padding: 150px;
     box-sizing: border-box;
+    box-shadow: 0 16px 20px -6px rgb(199, 199, 199);
   
   }
   
   .inner-container h1{
     margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    font-weight: 1000;
+    font-family: 'Noto Sans TC', sans-serif;
   }
-  .inner-container h1::before{
-    position: absolute;
-    content: "";
-    width: 160px;
-    height: 3px;
-    background-color: #ff7720;
-    bottom: 66.5%;
-    transform:-4%;
-    margin-bottom: -9px;
-    
-  } 
+
   @media screen and (max-width:1200px){
     .inner-container{
     padding: 80px;
@@ -434,36 +466,44 @@ color:rgb(0, 49, 0)
     text-align: justify;
     margin-bottom: 40px 30px;
     color:#aaa;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     padding:1rem 0;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Questrial', sans-serif;
   
   }
   .btn1{
-  width: 100px; 
-  height: 50px; 
+  
+  padding: 18px 25px 18px 25px;
   border-radius: 1px solid white;
   border-radius: 10px;
   border-bottom: 1px solid white;
   border-right: 1px solid white;
   border-left: 1px solid white;
   border-top: 1px solid white;
+  font-size: 18px;
   }
   
   .subtitle{
      width: 1200px;
-     margin: 100px auto;
+     /* margin: 100px auto; */
      border-radius: 30px;
+     display: flex;
+     flex-direction: column;
   }
   .title{
    text-align: center;
    margin-bottom: 60px;
+   margin-top: 150px;
+   margin-left: 50px;
   
   }
   .title h4{
       text-transform:capitalize;
-      font-size: 40px;
+      font-size: 50px;
+      font-weight: 700;
       position: relative;
+      margin-left: 550px;
+      font-family: 'Ubuntu', sans-serif;
       display: inline-block;
    
   }
@@ -512,16 +552,25 @@ color:rgb(0, 49, 0)
   float: left;
   margin-right: 20px;
   }
-  .menu{
+  .menu{width: 100%;
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
+      flex-direction: row;
+      margin-top: 150px;
+      justify-content: space-between;
+      
   }
-  .singlemenu{
+  .singlemenu{width: 30%;
       flex-basis: 580px;
       margin-bottom: 20px;
       padding-bottom: 20px;
       border-bottom: 1px solid #ddd;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 110px;
+      
+  
+      
   }
   .singlemenu img{
       margin: 30px 20px;
@@ -529,12 +578,7 @@ color:rgb(0, 49, 0)
   .singlemenu:nth-child(5),.singlemenu:nth-child(6){
   border-bottom: 0;
   }
-  .singlemenu{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
   
-  }
   .singlemenu h4{
      text-transform: capitalize; 
      margin-bottom: 5px;
@@ -551,18 +595,26 @@ color:rgb(0, 49, 0)
   .meal-showcase{
       list-style: none;
       width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin-left: 200px;
+      
     }
     .meal-showcase li {
     display: block;
-     width: 23%;
-   float: left;
+     width: 18%;
+    
     }
     .meal-photo{
       width: 100%;
       overflow:hidden;
       margin: 40px 30px;
-     margin-right: 30px;
+     
     }
+
+    .meal-photo h3{text-align: center;
+    font-size: 25px;
+    color: #797573;}
     .meal-photo img{
        width: 85%;
        height:auto;
@@ -579,8 +631,12 @@ color:rgb(0, 49, 0)
       width: 40%;
      
     }
-    .meal{
-      margin-top:60px;
+    .meal{background-color: #f2f3ee;
+      
+      margin-bottom: 50px;
+      padding-top: 50px;
+      padding-bottom: 100px;
+     
       
     }
     .meal p{
@@ -589,7 +645,7 @@ color:rgb(0, 49, 0)
         justify-content: center;
       text-transform: capitalize;
       font-size: 30px;
-      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      margin-top: 50px;
      
     }
     h2{
@@ -599,23 +655,15 @@ color:rgb(0, 49, 0)
     .meal h2{
       text-align: center;
       text-transform: capitalize;
-      font-size: 40px;
+      font-size: 50px;
       position: relative;
       justify-content: center;
       margin-bottom: 25px;
+      font-family: 'Ubuntu', sans-serif;
       padding-bottom: 15px;
+      margin-top: 100px;
+      color: rgb(0, 44, 0);
     }
-     .meal h2::before{
-      position: absolute;
-      content: "";
-      width: 100px;
-      height: 3px;
-      background-color: #ff7720;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      margin-bottom: -9px;
-  }
    
    .btn a{
        color: white;
@@ -635,6 +683,7 @@ color:rgb(0, 49, 0)
       width: 20%;
       margin-left:40%;
       margin-right:25%;
+      margin-top: 0%;
     
     
     }
